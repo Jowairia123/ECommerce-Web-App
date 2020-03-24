@@ -1,0 +1,847 @@
+body
+{
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    background: white; 
+}
+
+.h
+{      
+    background: #007DED;
+    color:white;
+}
+
+.container-fluid
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row
+{
+    height: 40px;
+    padding:10px 0;
+    margin:0;
+}
+
+a
+{
+    color:black;
+    margin-bottom:1px;
+}
+
+.col-lg-8
+{
+    padding-left: 0;
+}
+
+.col-lg-8 span
+{
+    font-weight:bold !important;
+    color:white !important;   
+}
+
+.navbar-brand
+{
+    padding-left: 25px;
+}
+
+a[href="#account"],[href="#carts"],[href = "footer"]
+{
+    color:white;
+    text-decoration: none;
+}
+
+a[href="#account"]
+{   
+   float:right;
+}
+
+img[alt = "cart"],[alt = "account"]
+{
+    width:24px;
+    height:auto;  
+    position: relative;
+    bottom: 2px;
+}
+
+.navbar
+{
+    background-color:white !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height:84px;
+    padding-top:16px;
+    padding-right: 56px;
+}
+
+.navbar-brand img
+{
+    width:110px;
+    height: auto;
+}
+
+.icon-bar
+{
+    background:white;
+}
+
+img[alt = "tel"]
+{
+    width: 65px !important;
+    height:auto;
+    margin-top:9px;
+}
+
+a[href = "num"]
+{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #35c35c !important;
+    position: relative;
+    right: 9px;
+    bottom:8px;
+    padding-bottom:0 !important;
+}
+
+.nav li:last-child
+{
+    line-height: 0;
+    position: relative;
+    right: 8px;
+}
+
+.nav a
+{
+   padding-left: 7px !important;
+   color:rgba(0,0,0,.75);
+   font-size: 16px;
+}
+
+.dropdown-menu
+{
+    right: auto !important;
+    left: 5px !important;
+}
+
+.dropdown-menu a
+{
+    text-align: left;
+    padding-left: 25px !important;
+}
+
+.dropdown-toggle:hover
+{
+    background: white !important;
+}
+
+.active:hover
+{
+    background: white !important;
+}
+
+.dropdown:hover .dropdown-menu 
+{
+    display: block !important;
+}
+
+.dropdown-menu li:last-child
+{
+    right: 0 !important;
+    padding-left: 2px !important;
+    margin-bottom: 5px !important;
+}
+
+.caret
+{
+    padding-bottom: 4px;
+}
+
+.btn
+{
+    margin-top:4px;
+    border: 1px solid #FF7900;
+    color:#FF7900;
+    width:135px;
+    height: 42px;
+    margin-right: 18px;
+}
+
+.btn:hover,.center a:hover
+{
+    background: #FF7900;
+    color:white;
+    border: 1px solid #FF7900;
+}
+
+h1,h2
+{
+    color:#FF7900;
+    text-align: center;
+    padding-top:15px;
+}
+
+p
+{
+    text-align: center;
+    font-size: 1.3em;
+    padding-top:15px;
+    color: #424447;
+}
+
+.list-group-item 
+{
+    color: black !important;
+    border: 0;
+    background: transparent !important;
+    font-size: 15px;
+}
+
+.list-group p
+{
+    font-size: 15px;
+    text-align: left;
+    display:inline-block;
+}
+
+p.list-group-item-text::before 
+{
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #d1d3d6;
+    content: ">";
+    font-size: 17px;
+    cursor: default;
+}
+
+.list-group a:first-child,.list-group a:nth-child(2)
+{
+    color:#007ded !important;
+    font-size: 15px;
+    position: relative;
+    right: 6%; 
+    padding: 30px 15px 10px;
+}
+
+.deco
+{   
+    border-top: 1px solid #d1d3d6 !important;
+    padding: 11px 0 11px 23px!important;
+    display: block !important;
+}  
+
+a[href = "#bott"]
+{
+    border-bottom: 1px solid #d1d3d6 !important; 
+    padding: 5px 0 12px 23px!important;
+}
+
+a[href= "#bord"],[href = "#item"]
+{
+    position: relative;
+    right: 4%; 
+}
+
+.list-group a:hover
+{
+    color:#007ded !important;
+    text-decoration: none !important;    
+}
+
+.list
+{
+    padding: 0 0 12px 23px!important;
+}
+
+.pics div
+{
+    padding: 6px 15px 7px;
+    text-align: center;
+    margin: 20px 16px 25px 0;
+    font-weight: bold;
+    font-size: 1.4em;
+    font-family: calibri;
+}
+
+a[href = "#btn"]:hover
+{
+    color:#007ded !important;
+}
+
+a[href = "#btn"],h2
+{
+    color: #424447;
+}
+ 
+h2
+{
+   margin-top: 65px; 
+}
+
+h3
+{
+    text-align: center;
+    font-family: calibri;
+    color:#424447 !important;
+}
+
+.badge
+{
+    background-color:#007DED;
+    border-radius: 50%;
+    padding: 5px 8px;
+    margin: 0px 10px 4px;
+}
+
+img[alt = "first"],[alt = "second"],[alt = "third"],[alt="footer"]
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b
+{
+    background:#F0F2F5 !important;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    margin-top: 0px !important;
+}
+
+.b p
+{
+    font-size: 1.1em !important;
+    color:#424447;
+}
+
+.p p
+{
+    font-size: 1.1em !important;
+}
+
+img[alt = "inc"],[alt = "newyork"],[alt = "ball"]
+{
+    width: 348px; 
+}
+
+img[alt = "ball"]
+{
+    height: 149px;
+    width:auto;
+}
+
+.last
+{
+    background-color:#66686B !important;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 0;
+}
+
+.last p
+{
+    font-size: 1.2em;
+    font-family: calibri;
+    padding-top: 35px;
+    color:white !important;
+    text-align: left;
+}
+
+.last h3
+{
+    color:white !important;
+    text-align: left;
+    margin-top: 0 ;
+    padding-left: 95px;
+}
+
+img[alt = "white"]
+{
+   width: 150px !important; 
+}
+
+img[alt = "phone"],[alt = "chat"],[alt = "mail"],[alt = "location"]
+{
+    width: 24px !important;    
+    margin-right: 5px;
+    display :inline-block;
+}
+
+a[href = "footer"]
+{
+    position: relative;
+    top: 20px;
+    font-size: 1.3em;
+    font-family: calibri;
+    display: inline-block;
+}
+
+a[href = "footer"]:hover
+{
+    color:white;
+}
+
+.last ul
+{
+    list-style-type: none;
+    padding-left: 95px;
+    padding-top:0;
+}
+
+.last li
+{
+    padding-top: 15px;
+}
+
+h2
+{
+    position: absolute;
+    bottom:50%;
+    left: 37.6%;
+    color:white;
+}
+
+#i
+{
+    position: absolute;
+    top:49% !important;
+    left: 34.5%;
+    color: #ECC525;
+    font-size: 15px;
+}
+
+#end
+{
+    position: absolute;
+    top:39%;
+    left: 30.5%;
+    color:#5997C1 !important;
+    font-size: 1em;
+}
+
+.center a
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    background-color:#FF7900;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+
+img[alt="girl"]
+{
+    width:100%;
+    height:auto;
+    margin-top: -55px;
+}
+
+@media (max-width: 767px)
+{
+    .container-fluid div:nth-child(1)
+    {
+        text-align: center;
+        height: auto;
+        font-size: 1.1em;
+        padding:5px 2px 5px 0 !important;
+        width: 100%;
+    }
+    
+    .container
+    {
+        padding:0 30px;
+        width: 100%;
+    }
+    
+    a[href = "#carts"],[href = "#account"]
+    {
+        display:none !important;
+    }
+    
+    .navbar
+    {
+        height:83px !important;
+        min-height: 0 !important;
+        padding-top: 0px !important;
+        padding-right: 0 !important;
+    }
+    
+    .navbar-brand
+    {
+        position: relative;
+        bottom: 9px;
+        padding-left: 0 !important;
+    }
+    
+    .navbar-toggle
+    {
+        margin: 14px 0px !important;
+        background: black;
+    }
+         
+    .nav 
+    {
+        margin-bottom: 75px !important;
+        padding: 5px 14px 0px !important;
+        background: red;
+        height:100% !important;
+        overflow: hidden !important;
+    }
+    
+    #para
+    {
+        padding: 0 15px !important;
+        font-size: 1.0em !important;
+    }
+    
+    .b p
+    {
+        margin-bottom: 40px;
+        padding: 0 15px;
+        font-size: 1.0em;
+    }
+    
+    #par
+    {
+        padding: 0 0px !important;
+        margin-bottom: 0px;
+    }
+    
+        
+    .pics div
+    {        
+        padding: 6px 5px 7px;        
+        margin: 20px 0 45px;
+        font-size: 1.1em !important;
+        width: 118%;
+        max-width: 118%;
+    }
+    
+    .pics img
+    {
+        width:150px !important;
+        height:auto;
+        float:none;
+    }
+    
+    img[alt="usa"],[alt="youth"]
+    {
+        margin-top: 43%;
+    }
+    
+    .p
+    {
+        display:none;
+    }
+
+    a[href = "#belo"],[href = "#deco"],[href = "#list"],[href = "#bott"],[href = "#bord"],[href = "#item"]
+    {
+        display:none;
+    }
+    
+    .last ul
+    {
+        padding-left:0;
+    }
+    
+    .last p
+    {
+        padding:50px 30px 0 40px;
+    }
+
+    .last h3
+    {       
+        text-align: center !important;
+        margin-top: 50px !important;
+        padding-left: 0px !important;
+    }
+    
+    a[href = "footer"]
+    {
+        position: relative;
+        top: 0% !important;
+        font-size: 1.3em;
+        font-family: calibri;
+        display: inline-block;
+    }
+    
+    img[alt="girl"]
+    {
+        min-width: 300% !important;
+        position: absolute;
+        top: 95%;
+        left: 0%;
+    }
+    
+    .center a
+    {
+        margin:57% 0 0 95%;
+        width: 100px;
+        padding: 6px 10px;
+    }
+    
+    .b
+    {
+        margin-top: 130px !important;
+    }
+   
+    .list-group
+    {
+        //position: relative !important;
+        //top: 180px;
+        display: none;
+    }
+    
+    .badg
+    {
+        display: none;
+    }
+}  
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .h .row
+    {
+        margin-left: -5px;
+    }
+
+    .navbar-brand
+    {
+        padding: 0 0 0 5px;        
+    }
+    
+    .navbar-brand img
+    {
+        width:90px;
+        margin:-6px 0 0 0;
+    }
+    
+    .btn
+    {
+        width:100px;
+        height: 40px;
+        margin-right: 10px;
+        font-size: 13px;
+    }    
+    
+    .nav
+    {
+        margin:-40px 0 0;
+    }
+    
+    a[href = "#"]
+    {
+       padding-left: 8px !important;
+       font-size: 12px;
+    }
+    
+    .nav li:last-child
+    {
+        font-size: 12px;  
+        left:2px;
+    }
+    
+    .nav > li > a
+    {
+        padding: 15px 0;
+    }
+    
+    .nav li > a
+    {
+        right: 0;
+    }
+    
+    a[href = "num"]
+    {
+        position: relative;
+        right: 10px !important;
+    }
+
+    img[alt = "tel"]
+    {
+        margin-left: 0;
+        width: 55px !important;
+        margin-top:11px;
+        position: relative;
+        left:5px;
+    }
+    
+    img[alt="girl"]
+    {
+        margin-top: 100px;
+    }
+    
+    .center a
+    {
+        top: 66%;
+        padding:8px 15px 7px;
+        font-size: 12px;
+    }
+     
+    .p
+    {
+        padding: 50px 0;
+    }
+    
+    .b h3
+    {
+        font-size:22px;
+    }
+
+    .p p, .b p
+    {
+        font-size: 1.0em !important;
+    }
+    
+    img[alt = "ball"]
+    {
+        height: 95px;
+        width:auto;
+    }
+
+    .last p
+    {
+        font-size: 1.0em;
+    }
+
+    .last h3
+    {
+        padding-left: 0px;
+    }
+
+    img[alt = "white"]
+    {
+       width: 110px !important;
+       height: auto !important;
+    }
+    
+    .last ul
+    {
+        padding-left: 0px;
+        padding-top:10px;
+    }
+
+    .last li
+    {
+        font-size: 12px;
+    }
+
+    h2
+    {
+        left: 30%;
+    }
+
+    #i
+    {
+        left: 25.5%;
+    }
+
+    #end
+    {
+        left: 19%;
+    }
+    
+    .pics
+    {
+        margin-top: 105px;
+    }
+    
+    img[alt = "pic"]
+    {
+        width: 120px !important;
+        height: auto !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{ 
+    .pics
+    {
+        margin-top: 105px;
+    }
+    
+    .last h3,ul
+    {       
+        padding-left: 35px !important;
+    }
+    
+    h2
+    {
+        left: 34.6% !important;
+    }
+
+    #i
+    {
+        left: 31%;
+    }
+
+    #end
+    {        
+        left: 26%;
+    }
+    
+    img[alt = "ball"]
+    {
+        width: 261px;  
+        height: auto;
+    }
+    
+    .p
+    {
+        padding: 50px 0;
+    }
+    
+    img[alt="girl"]
+    {
+        width:100% !important;
+        height:auto !important;
+        margin-top: 70px;
+    }
+    
+    .center a
+    {
+        top: 64%;
+        padding:8px 15px 7px;
+        font-size: 17px;
+    }
+    
+    .navbar
+    {
+        padding-top:0px !important;
+    }
+    
+    .nav
+    {
+        position: relative;
+        bottom: 23px;
+    }
+
+    .navbar-brand
+    {
+        padding: 5px 0 0 20px;        
+    }
+    
+    .dropdown-menu li
+    {
+        margin-left: -35px !important;
+    }
+
+    .dropdown-menu a
+    {
+        padding-left: 20px !important;        
+    }
+    
+    .divider
+    {
+        padding-left: -30px;
+    }
+    
+    img[alt = "ball"]
+    {
+        height: 125px;
+        width:auto;
+    }
+}
+

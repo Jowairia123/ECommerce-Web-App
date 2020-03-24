@@ -1,0 +1,540 @@
+body
+{
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    background: white;   
+}
+
+.h
+{      
+    background: #007DED;
+    color:white;
+}
+
+.container-fluid
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row
+{
+    height: 40px;
+    padding:10px 0;
+    margin:0;    
+}
+
+a
+{
+    color:black;
+    margin-bottom:1px;
+}
+
+.col-lg-8
+{
+    padding-left: 0;
+}
+
+.col-lg-8 span
+{
+    font-weight:bold !important;
+    color:white !important;   
+}
+
+a[href="#account"],[href="#carts"],[href = "footer"]
+{
+    color:white;
+    text-decoration: none;
+}
+
+a[href="#account"]
+{   
+   float:right;
+}
+
+img[alt = "cart"],[alt = "account"]
+{
+    width:24px;
+    height:auto;  
+    position: relative;
+    bottom: 2px;
+}
+
+.navbar
+{
+    background-color:white !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height:84px;
+    padding-top:16px;
+    padding-right: 56px;
+}
+
+.navbar-brand
+{
+    padding-left: 24px;
+}
+
+.navbar-brand img
+{
+    width:110px;
+    height: auto;
+}
+
+.icon-bar
+{
+    background:white;
+}
+
+img[alt = "tel"]
+{
+    width: 65px !important;
+    height:auto;
+    margin-top:9px;
+}
+
+a[href = "num"]
+{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #35c35c !important;
+    position: relative;
+    right: 9px;
+    bottom:8px;
+    padding-bottom:0 !important;
+}
+
+.nav li:last-child
+{
+    line-height: 0;
+    position: relative;
+    right: 8px;
+}
+
+.nav a
+{
+   padding-left: 7px !important;
+   color:rgba(0,0,0,.75);
+   font-size: 16px;
+}
+
+.dropdown-menu
+{
+    right: auto !important;
+    left: 5px !important;
+}
+
+.dropdown-menu a
+{
+    text-align: left !important;
+    padding-left: 25px !important;
+}
+
+.dropdown-toggle:hover
+{
+    background: white !important;
+}
+
+.active:hover
+{
+    background: white !important;
+}
+
+.dropdown:hover .dropdown-menu 
+{
+    display: block !important;
+}
+
+.dropdown-menu li:last-child
+{
+    right: 0 !important;
+    padding-left: 2px !important;
+    margin-bottom: 5px !important;
+}
+
+.caret
+{
+    padding-bottom: 4px;
+}
+
+.btn
+{
+    margin-top:4px;
+    border: 1px solid #FF7900;
+    color:#FF7900;
+    width:135px;
+    height: 42px;
+    margin-right: 18px;
+}
+
+.btn:hover
+{
+    background: #FF7900;
+    color:white;
+    border: 1px solid #FF7900;
+}
+
+.list-group-item 
+{
+    color: black !important;
+    border: 0;
+    background: transparent !important;
+    font-size: 15px;
+}
+
+.list-group p:nth-child(2)
+{
+    position: relative;
+    bottom: 31px;
+    left: 165px;
+}
+
+.list-group p
+{
+    font-size: 15px;
+    text-align: left;
+    display:inline-block;
+}
+
+p.list-group-item-text::before 
+{
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: .5rem;
+    color: #d1d3d6;
+    content: ">";
+    font-size: 17px;
+    position: static !important;
+    cursor: default;
+}
+
+.blue,.belo
+{
+    color:#007ded !important;
+    font-size: 15px;
+    position: relative;
+    right: 6%; 
+    padding: 25px 15px 10px;
+}
+
+.belo
+{
+    padding-top: 30px !important;  
+}
+
+.deco
+{   
+    border-top: 1px solid #d1d3d6 !important;
+    padding: 11px 0 11px 23px!important;
+    display:block !important;
+}  
+
+a[href = "#bott"]
+{
+    border-bottom: 1px solid #d1d3d6 !important; 
+    padding: 5px 0 12px 23px!important;
+}
+
+a[href= "#bord"],[href = "#item"]
+{
+    position: relative;
+    right: 4%; 
+}
+
+.list-group a:hover
+{
+    color:#007ded !important;
+    text-decoration: none !important;    
+}
+
+.list
+{
+    padding: 0 0 12px 23px!important;
+}
+
+.panel
+{    
+    margin: 75px -40px !important;
+    width: 700px;
+    height:355px;
+}
+
+.panel-body
+{
+    padding: 0px 15px;
+}
+
+.panel-body p
+{
+    margin:0px 0 0 0;
+    font-size: 16px !important;
+    text-align:left !important;
+    color: #616770 !important;    
+    position: relative !important;
+    left:55px !important;
+    top: 0;
+}
+
+.panel-body h2
+{
+    color: #269abc;
+    padding:10px 50px 0px;
+}
+
+.panel-body button
+{
+    margin:-95px -155px 0px 0px;
+    border: 1px solid #FF7900;
+    color:white;
+    width:135px;
+    height: 42px; 
+    background: linear-gradient(#FF7900,orange);
+    float: right;   
+}
+
+.panel-body button:hover
+{
+    color:white;
+    border: 1px solid orange;
+    font-weight: normal;
+}
+
+.img-responsive
+{
+    float:right;
+    width: 229px;
+    height:120px;
+    position: relative;
+    bottom:250px;
+    right:30px;
+}
+
+.panel-body p
+{
+    margin:0px 0 0 0;
+    font-size: 16px !important;
+    text-align:left !important;
+    color: #616770 !important;    
+    position: relative !important;
+    left:55px !important;
+    top: 0;
+}
+
+.panel-body h2
+{
+    color: #269abc;
+    padding:10px 50px 0px;
+}
+
+@media (max-width: 767px)
+{
+    .container-fluid div:nth-child(1)
+    {
+        text-align: center;
+        height: auto;
+        font-size: 1.1em;
+        padding:5px 2px 5px 0 !important;
+        width: 100%;
+    }
+    
+    .container
+    {
+        padding:0 30px;
+        width: 100%;
+    }
+    
+    a[href = "#carts"],[href = "#account"]
+    {
+        display:none !important;
+    }
+    
+    .navbar
+    {
+        height:83px !important;
+        min-height: 0 !important;
+        padding-top: 0px !important;
+        padding-right: 0 !important;
+    }
+    
+    .navbar-brand
+    {
+        position: relative;
+        bottom: 9px;
+        padding-left: 0 !important;
+    }
+    
+    .navbar-toggle
+    {
+        margin: 14px 0px !important;
+        background: black;
+    }
+         
+    .nav 
+    {
+        margin-bottom: 75px !important;
+        padding: 5px 14px 0px !important;
+        background: red;
+        height:100% !important;
+        overflow: hidden !important;
+    }
+    
+    .panel
+    {    
+        margin: -30px 0 0px -30px !important;
+        width: 400%;
+    }
+
+    .panel-body
+    {
+        padding: 0px 1% !important;
+    }
+    
+    .panel-body p
+    {
+        margin:0px 0 0 0;
+        left:25px !important;
+        top: 0;
+    }
+
+    .panel-body h2
+    {
+        padding:10px 25px 0px;
+    }
+    
+    .img-responsive
+    {
+        float:right;
+        width: 229px;
+        height:120px;
+        position: relative;
+        bottom:250px;
+        right:1%;
+    }
+    
+    .panel-body button
+    {
+        margin:-95px -170px 0px 0px;
+    }  
+    
+    .list-group p:nth-child(2)
+    {
+        left: 160px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .h .row
+    {
+        margin-left: -5px;
+    }
+
+    .navbar-brand
+    {
+        padding: 0 0 0 5px;        
+    }
+    
+    .navbar-brand img
+    {
+        width:90px;
+        margin:-6px 0 0 0;
+    }
+    
+    .btn
+    {
+        width:100px;
+        height: 40px;
+        margin-right: 10px;
+        font-size: 13px;
+    }    
+    
+    .nav
+    {
+        margin:-40px 0 0;
+    }
+    
+    a[href = "#"]
+    {
+       padding-left: 8px !important;
+       font-size: 12px;
+    }
+    
+    .nav li:last-child
+    {
+        font-size: 12px;  
+        left:2px;
+    }
+    
+    .nav > li > a
+    {
+        padding: 15px 0;
+    }
+    
+    .nav li > a
+    {
+        right: 0;
+    }
+    
+    a[href = "num"]
+    {
+        position: relative;
+        right: 10px !important;
+    }
+
+    img[alt = "tel"]
+    {
+        margin-left: 0;
+        width: 55px !important;
+        margin-top:11px;
+        position: relative;
+        left:5px;
+    }
+    
+    .panel
+    {    
+        margin: -30px 0px !important;
+    }
+    
+    .list-group p:nth-child(2)
+    {
+        left: 140px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{   
+    .navbar
+    {
+        padding-top:0px !important;
+    }
+    
+    .nav
+    {
+        position: relative;
+        bottom: 23px;
+    }
+
+    .navbar-brand
+    {
+        padding: 5px 0 0 20px;        
+    }
+    
+    .dropdown-menu li
+    {
+        margin-left: -35px !important;
+    }
+
+    .dropdown-menu a
+    {
+        padding-left: 20px !important;        
+    }
+    
+    .divider
+    {
+        padding-left: -30px;
+    }
+    
+    .panel
+    {    
+        margin: 70px -200px !important;
+    }
+}
+
